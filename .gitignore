@@ -1,0 +1,16 @@
+*.iml
+.settings
+.classpath
+.project
+.mvn/
+.idea/
+.springBeans
+*/target/
+*/bin/
+*/log/
+*.iml
+target/
+/*/.DS_Store
+/logs
+/cglib_proxy
+.DS_Store
