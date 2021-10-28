@@ -1,0 +1,57 @@
+logging:
+  level:
+    root: info
+  path: logs/
+  file: app.log
+server:
+  port: 80
+
+spring:
+  application:
+    name: monitor-stock
+  banner:
+    location: classpath:banner.txt
+
+## 语义：哪个账户关注哪些股票，每个股票的预警值是多少，预警值有优先级：各自股票的高，账户下全局的低
+stock-account:
+  defaultRate: 3
+  account:
+    owdlp5ikqoleyI40wXc66b4Gu7_A:
+      -
+        market: 1
+        code: "09988"
+        rate: 5
+      -
+        market: 22
+        code: "002603"
+        rate: 6
+#    owdlp5ra5_EalLuol4SHH6rpzeyw:
+#      -
+#        market: 1
+#        code: "09988"
+#        rate: 2.1
+
+
+send:
+  isFilter: false
+
+
+## 打印 CONDITIONS EVALUATION REPORT 信息
+debug: true
+
+## 端点endpoint设置
+#include: '*' 表示：暴露所有的endpoint, 除了(exclude)features, info节点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: features, info
+      base-path: /
+    enabled-by-default: true
+#  endpoint:
+#    mappings:
+#      enabled: true
+#    loggers:
+#      enabled: true
+
