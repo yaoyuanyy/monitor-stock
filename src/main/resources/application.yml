@@ -16,7 +16,7 @@ spring:
 stock-account:
   defaultRate: 3
   account:
-    xxxxx:
+#    xyz:
       -
         market: 1
         code: "09988"
@@ -25,7 +25,7 @@ stock-account:
         market: 22
         code: "002603"
         rate: 6
-#    xxxx:
+#    xyz:
 #      -
 #        market: 1
 #        code: "09988"
