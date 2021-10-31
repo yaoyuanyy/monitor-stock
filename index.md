@@ -64,7 +64,7 @@ stock-account:
 
 ## 结果
 
-![](https://github.com/yaoyuanyy/monitor-stock/blob/master/111111.png)
+![](https://raw.githubusercontent.com/yaoyuanyy/MarkdownPhotos/master/img/111111.png)
 
 
 ## 声明
