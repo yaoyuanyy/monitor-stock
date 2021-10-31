@@ -2,7 +2,7 @@
 
 # 站点蹲坑
 
-![](https://www.pexels.com/zh-cn/photo/100-3483098/)
+![](https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?cs=srgb&dl=pexels-john-guccione-wwwadvergroupcom-3483098.jpg&fm=jpg)
 
 ## 目的
    对于我们上班族而言，虽然手机和电脑都不离手，但在早9晚9的工作模式中，一旦投入到紧张的工作中，自然不能时刻关注股市的变化，如何能在较高点卖掉手里的持有，如何能在较低点买进心仪的股票。
@@ -63,6 +63,7 @@ stock-account:
 
 
 ## 结果
+
 ![](https://github.com/yaoyuanyy/monitor-stock/blob/master/111111.png)
 
 
